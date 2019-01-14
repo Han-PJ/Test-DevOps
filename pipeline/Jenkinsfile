@@ -5,7 +5,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    dockerImage = docker.build("aihan/node-app","--no-cache ./nodejs/")
+                    dockerImage = docker.build("$docker_repository:$tag_name","--no-cache ./nodejs/")
                 }
             }
         }
