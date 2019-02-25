@@ -1,6 +1,6 @@
-# Assignment
+# Test DevOps
 
-Assignment for DevOps by Han. How to use script to create docker image and deploy to Kubernetes using Jenkins pipeline
+Test for DevOps by Han. How to use script to create docker image and deploy to Kubernetes using Jenkins pipeline
 
 ## Prerequisites
 
